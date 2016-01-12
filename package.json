@@ -1,0 +1,20 @@
+{
+  "name": "blog-scottnonnenberg-com-code-examples",
+  "version": "1.0.0",
+  "description": "More substantial code examples needed for my blog. :0)",
+
+  "dependencies": {
+    "async": "1.5.2",
+    "bluebird": "3.1.1",
+    "lodash": "3.10.1"
+  },
+
+  "author": "Scott Nonnenberg",
+  "homepage": "https://blog.scottnonnenberg.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:scottnonnenberg/blog-code.git"
+  },
+
+  "license": "MIT"
+}
