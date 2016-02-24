@@ -110,10 +110,10 @@ NewReferencesProcess.prototype.emailUserIf = function emailUserIf() {
 
 var refProcess = new NewReferencesProcess({userId: 3});
 
-refProcess.go(function(err, newReferences) {
-  if (err) {
+refProcess.go()
+  .then(function(newReferences) {
+    console.log('newReferences:', newReferences);
+  })
+  .catch(function(err) {
     return console.log(err.stack);
-  }
-
-  console.log('newReferences:', newReferences);
-});
+  });
