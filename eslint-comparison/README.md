@@ -11,4 +11,10 @@ eslint-compare-config airbnb defaults --score
 eslint-compare-config airbnb defaults
 ```
 
-Enjoy
+Or, for a very simple example:
+
+```bash
+eslint-compare-config thehelp thehelp/one-rule
+```
+
+Enjoy!
