@@ -1,0 +1,16 @@
+{
+  "name": "stack-2016-july",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "babel-node tags.js"
+  },
+  "author": "Scott Nonnenberg",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.10.1",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-stage-0": "6.5.0"
+  }
+}
